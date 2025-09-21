@@ -1,0 +1,24 @@
+# Nmap 7.95 scan initiated Sun Sep 21 16:46:35 2025 as: /usr/lib/nmap/nmap --privileged -sU --top-ports 100 -sV --max-retries 0 -T5 --open -Pn -n -iL targets_ip-list.txt -oA top250_udp_scan_q3
+Host: 10.0.11.1 ()	Status: Up
+Host: 10.0.11.1 ()	Ports: 123/open/udp//ntp//NTP v4 (secondary server)/	Ignored State: open|filtered (99)
+Host: 10.0.11.5 ()	Status: Up
+Host: 10.0.11.5 ()	Ports: 
+Host: 10.0.11.10 ()	Status: Up
+Host: 10.0.11.10 ()	Ports: 53/open/udp//domain//ISC BIND 9.4.2/, 111/open/udp//rpcbind//2 (RPC #100000)/, 137/open/udp//netbios-ns//Microsoft Windows 10 netbios-ns (workgroup: WORKGROUP)/, 2049/open/udp//nfs//2-4 (RPC #100003)/
+Host: 10.0.11.15 ()	Status: Up
+Host: 10.0.11.15 ()	Ports: 137/open/udp//netbios-ns//Microsoft Windows netbios-ns (workgroup: WORKGROUP)/
+Host: 10.0.11.20 ()	Status: Up
+Host: 10.0.11.20 ()	Ports: 5353/open/udp//mdns//DNS-based service discovery/
+Host: 10.0.11.30 ()	Status: Up
+Host: 10.0.11.30 ()	Ports: 137/open/udp//netbios-ns?///
+Host: 10.0.11.35 ()	Status: Up
+Host: 10.0.11.35 ()	Ports: 137/open/udp//netbios-ns?///
+Host: 10.0.11.40 ()	Status: Up
+Host: 10.0.11.40 ()	Ports: 
+Host: 10.0.11.45 ()	Status: Up
+Host: 10.0.11.45 ()	Ports: 
+Host: 10.0.11.50 ()	Status: Up
+Host: 10.0.11.50 ()	Ports: 	Ignored State: open|filtered (100)
+Host: 10.0.11.60 ()	Status: Up
+Host: 10.0.11.60 ()	Ports: 
+# Nmap done at Sun Sep 21 17:25:48 2025 -- 11 IP addresses (11 hosts up) scanned in 2353.00 seconds

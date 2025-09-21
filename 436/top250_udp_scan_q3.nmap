@@ -1,0 +1,101 @@
+# Nmap 7.95 scan initiated Sun Sep 21 16:46:35 2025 as: /usr/lib/nmap/nmap --privileged -sU --top-ports 100 -sV --max-retries 0 -T5 --open -Pn -n -iL targets_ip-list.txt -oA top250_udp_scan_q3
+Warning: 10.0.11.50 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.1 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.35 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.10 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.15 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.20 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.5 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.40 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.45 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.60 giving up on port because retransmission cap hit (0).
+Warning: 10.0.11.30 giving up on port because retransmission cap hit (0).
+Nmap scan report for 10.0.11.1
+Host is up (0.0011s latency).
+Not shown: 99 open|filtered udp ports (no-response)
+PORT    STATE SERVICE VERSION
+123/udp open  ntp     NTP v4 (secondary server)
+
+Nmap scan report for 10.0.11.5
+Host is up (0.0014s latency).
+All 100 scanned ports on 10.0.11.5 are in ignored states.
+Not shown: 95 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+
+Nmap scan report for 10.0.11.10
+Host is up (0.0013s latency).
+Not shown: 91 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+PORT     STATE SERVICE    VERSION
+53/udp   open  domain     ISC BIND 9.4.2
+111/udp  open  rpcbind    2 (RPC #100000)
+137/udp  open  netbios-ns Microsoft Windows 10 netbios-ns (workgroup: WORKGROUP)
+2049/udp open  nfs        2-4 (RPC #100003)
+Service Info: Host: WORKSTATION; OS: Windows; CPE: cpe:/o:microsoft:windows_10
+
+Nmap scan report for 10.0.11.15
+Host is up (0.0021s latency).
+Not shown: 94 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+PORT    STATE SERVICE    VERSION
+137/udp open  netbios-ns Microsoft Windows netbios-ns (workgroup: WORKGROUP)
+Service Info: Host: WIN-47DOHB13GIA; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for 10.0.11.20
+Host is up (0.0017s latency).
+Not shown: 94 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+PORT     STATE SERVICE VERSION
+5353/udp open  mdns    DNS-based service discovery
+
+Nmap scan report for 10.0.11.30
+Host is up (0.0012s latency).
+Not shown: 64 open|filtered udp ports (no-response), 35 closed udp ports (port-unreach)
+PORT    STATE SERVICE     VERSION
+137/udp open  netbios-ns?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port137-UDP:V=7.95%I=7%D=9/21%Time=68D07625%P=x86_64-pc-linux-gnu%r(CIF
+SF:S_NS_UC,67,"\x01\x91\x84\0\0\0\0\x01\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAA
+SF:AAAAAAAAA\0\0!\0\x01\0\0\0\0\0/\0\0PV\x01\xc5\x7f\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")%r(CIFS_NS_
+SF:BC,AF,"\x01\x91\x84\0\0\0\0\x01\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAAAAAAA
+SF:AAAA\0\0!\0\x01\0\0\0\0\0w\x04WORKSTATION\x20\x20\x20\x20\x20\x04\0WORK
+SF:STATION\x20\x20\x20\x20\0\x04\0WORKGROUP\x20\x20\x20\x20\x20\x20\0\x84\
+SF:0WORKGROUP\x20\x20\x20\x20\x20\x20\x1e\x84\0\0PV\x01\xc5\x7f\0\0\0\0\0\
+SF:0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0");
+
+Nmap scan report for 10.0.11.35
+Host is up (0.0020s latency).
+Not shown: 98 open|filtered udp ports (no-response), 1 closed udp port (port-unreach)
+PORT    STATE SERVICE     VERSION
+137/udp open  netbios-ns?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port137-UDP:V=7.95%I=7%D=9/21%Time=68D076AC%P=x86_64-pc-linux-gnu%r(CIF
+SF:S_NS_UC,9D,"\x01\x91\x84\0\0\0\0\x01\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAA
+SF:AAAAAAAAA\0\0!\0\x01\0\0\0\0\0e\x03WIN-47DOHB13GIA\0\x04\0WORKGROUP\x20
+SF:\x20\x20\x20\x20\x20\0\x84\0WIN-47DOHB13GIA\x20\x04\0\0PV\x01\xc5\x87\0
+SF:\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\
+SF:0\0\0\0")%r(CIFS_NS_BC,9D,"\x01\x91\x84\0\0\0\0\x01\0\0\0\0\x20CKAAAAAA
+SF:AAAAAAAAAAAAAAAAAAAAAAAA\0\0!\0\x01\0\0\0\0\0e\x03WIN-47DOHB13GIA\0\x04
+SF:\0WORKGROUP\x20\x20\x20\x20\x20\x20\0\x84\0WIN-47DOHB13GIA\x20\x04\0\0P
+SF:V\x01\xc5\x87\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0
+SF:\0\0\0\0\0\0\0\0\0\0\0");
+
+Nmap scan report for 10.0.11.40
+Host is up (0.0015s latency).
+All 100 scanned ports on 10.0.11.40 are in ignored states.
+Not shown: 95 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+
+Nmap scan report for 10.0.11.45
+Host is up (0.0015s latency).
+All 100 scanned ports on 10.0.11.45 are in ignored states.
+Not shown: 95 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+
+Nmap scan report for 10.0.11.50
+Host is up.
+All 100 scanned ports on 10.0.11.50 are in ignored states.
+Not shown: 100 open|filtered udp ports (no-response)
+
+Nmap scan report for 10.0.11.60
+Host is up (0.0014s latency).
+All 100 scanned ports on 10.0.11.60 are in ignored states.
+Not shown: 95 open|filtered udp ports (no-response), 5 closed udp ports (port-unreach)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 21 17:25:48 2025 -- 11 IP addresses (11 hosts up) scanned in 2353.00 seconds

@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Sun Sep 21 16:34:39 2025 as: /usr/lib/nmap/nmap --privileged -sT -sV -p- --open -Pn -n -iL targets_ip-list.txt -oA full_tcp_scan_q2
+Host: 10.0.11.10 ()	Status: Up
+Host: 10.0.11.10 ()	Ports: 512/open/tcp//exec//netkit-rsh rexecd/, 513/open/tcp//login?///, 514/open/tcp//shell//Netkit rshd/, 1099/open/tcp//java-rmi//GNU Classpath grmiregistry/, 1524/open/tcp//bindshell//Metasploitable root shell/, 2049/open/tcp//nfs//2-4 (RPC #100003)/, 2121/open/tcp//ccproxy-ftp?///, 3632/open/tcp//distccd//distccd v1 ((GNU) 4.2.4 (Ubuntu 4.2.4-1ubuntu4))/, 5432/open/tcp//postgresql//PostgreSQL DB 8.3.0 - 8.3.7/, 6000/open/tcp//X11//(access denied)/, 6667/open/tcp//irc//UnrealIRCd/, 6697/open/tcp//irc//UnrealIRCd/, 8009/open/tcp//ajp13//Apache Jserv (Protocol v1.3)/, 8180/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/, 8787/open/tcp//drb//Ruby DRb RMI (Ruby 1.8; path |usr|lib|ruby|1.8|drb)/, 33083/open/tcp//java-rmi//GNU Classpath grmiregistry/, 36248/open/tcp//status//1 (RPC #100024)/, 58764/open/tcp//nlockmgr//1-4 (RPC #100021)/, 59244/open/tcp//mountd//1-3 (RPC #100005)/
+Host: 10.0.11.15 ()	Status: Up
+Host: 10.0.11.15 ()	Ports: 5001/open/tcp//java-object//Java Object Serialization/, 8081/open/tcp//http//Jetty 6.1.25/
+Host: 10.0.11.30 ()	Status: Up
+Host: 10.0.11.30 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/, 49152/open/tcp//msrpc//Microsoft Windows RPC/, 49153/open/tcp//msrpc//Microsoft Windows RPC/, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49156/open/tcp//msrpc//Microsoft Windows RPC/, 49157/open/tcp//msrpc//Microsoft Windows RPC/
+Host: 10.0.11.35 ()	Status: Up
+Host: 10.0.11.35 ()	Ports: 135/open/tcp//msrpc//Microsoft Windows RPC/, 139/open/tcp//netbios-ssn//Microsoft Windows netbios-ssn/, 445/open/tcp//microsoft-ds//Microsoft Windows Server 2008 R2 - 2012 microsoft-ds/, 5985/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 47001/open/tcp//http//Microsoft HTTPAPI httpd 2.0 (SSDP|UPnP)/, 49152/open/tcp//msrpc//Microsoft Windows RPC/, 49153/open/tcp//msrpc//Microsoft Windows RPC/, 49154/open/tcp//msrpc//Microsoft Windows RPC/, 49155/open/tcp//msrpc//Microsoft Windows RPC/, 49156/open/tcp//msrpc//Microsoft Windows RPC/, 49157/open/tcp//msrpc//Microsoft Windows RPC/, 49158/open/tcp//msrpc//Microsoft Windows RPC/
+Host: 10.0.11.45 ()	Status: Up
+Host: 10.0.11.45 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3 (Ubuntu Linux; protocol 2.0)/
+Host: 10.0.11.60 ()	Status: Up
+Host: 10.0.11.60 ()	Ports: 8080/open/tcp//http//Jetty 10.0.11/
+# Nmap done at Sun Sep 21 16:41:04 2025 -- 11 IP addresses (11 hosts up) scanned in 384.92 seconds
