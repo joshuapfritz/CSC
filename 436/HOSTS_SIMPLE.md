@@ -1,0 +1,15 @@
+# Hosts (simplified)
+
+| IP | Hostname | Inferred OS | Confidence | Evidence |
+|---|---|---|---|---|
+| 10.0.11.1 |  | Unknown | Low | 123/udp/ntp/NTP; 123/tcp/ntp |
+| 10.0.11.5 |  | Unknown | Low |  |
+| 10.0.11.10 |  | Unknown | Low | 512/tcp/exec/netkit-rsh rexecd; 513/tcp/login/; 514/tcp/shell/Netkit rshd; 1099/tcp/java-rmi/GNU Classpath grmiregistry; 1524/tcp/bindshell/Metasploitable root shell; 2049/tcp/nfs/ |
+| 10.0.11.15 |  | Windows | High | 5001/tcp/java-object/Java Object Serialization; 8081/tcp/http/Jetty; 137/udp/netbios-ns/Microsoft Windows netbios-ns; 5001/tcp/java-object; 8081/tcp/http; 137/tcp/netbios-ns |
+| 10.0.11.20 |  | Unknown | Low | 5353/udp/mdns/DNS-based service discovery; 5353/tcp/mdns |
+| 10.0.11.30 |  | Windows | High | 135/tcp/msrpc/Microsoft Windows RPC; 139/tcp/netbios-ssn/Microsoft Windows netbios-ssn; 445/tcp/microsoft-ds/Microsoft Windows 7 - 10 microsoft-ds; 49152/tcp/msrpc/Microsoft Windows RPC; 49153/tcp/msrpc/Microsoft Windows RPC; 49154/tcp/msrpc/Microsoft Windows RPC |
+| 10.0.11.35 |  | Windows | High | 135/tcp/msrpc/Microsoft Windows RPC; 139/tcp/netbios-ssn/Microsoft Windows netbios-ssn; 445/tcp/microsoft-ds/Microsoft Windows Server 2008 R2 - 2012 microsoft-ds; 5985/tcp/http/Microsoft HTTPAPI httpd; 47001/tcp/http/Microsoft HTTPAPI httpd; 49152/tcp/msrpc/Microsoft Windows RPC |
+| 10.0.11.40 |  | Unknown | Low |  |
+| 10.0.11.45 |  | Linux/Unix | High | 22/tcp/ssh/OpenSSH; 22/tcp/ssh |
+| 10.0.11.50 |  | Unknown | Low |  |
+| 10.0.11.60 |  | Likely Linux/Unix (web) | Medium | 8080/tcp/http/Jetty; 8080/tcp/http |
